@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# gh-pages cache prevention
+node_modules/.cache/
+.cache/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
